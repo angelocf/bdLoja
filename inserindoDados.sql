@@ -1,26 +1,26 @@
---Adicionar o tipo primeiro para poder comeÁar a adicionar os produtos
+--Adicionar o tipo primeiro para poder come√ßar a adicionar os produtos
 -- inserindo tipos
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('AAAAA', 'MOUSE', 'DIVERSOS TIPOS DE MOUSES')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('BBBBB', 'HeadSet','Fones de ouvido com microfone')
 INSERT TIPO (IDTIPO, NOME, DESCRICAO) VALUES ('CCCCC', 'Armazenamento','Produtos tipo hd e ssd')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('DDDDD', 'Teclado', 'Teclados variados')
-INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('EEEEE', 'Placa de vÌdeo', 'Diversos tipos de placas de vÌdeo')
+INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('EEEEE', 'Placa de v√≠deo', 'Diversos tipos de placas de v√≠deo')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('FFFFF', 'Monitor Gamer', 'Fluidez no game')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('GGGGG', 'Mousepads', 'Diversos mousepads')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('HHHHH', 'Caixa de som', 'Diversas caixas de som')
-INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('IIIII', 'Placa m„e', 'Diversas placas m„e')
+INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('IIIII', 'Placa m√£e', 'Diversas placas m√£e')
 INSERT TIPO(IDTIPO, NOME, DESCRICAO) VALUES ('JJJJJ', 'Gabinete', 'Diversos Gabinetes')
 
 -- Inserindo fornecedores
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('AAAAA','Loja do zÈ','Fornece mouse')
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('BBBBB','¡udio de qualidade','Fornece Headsets')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('AAAAA','Loja do z√©','Fornece mouse')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('BBBBB','√Åudio de qualidade','Fornece Headsets')
 INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('CCCCC','Armazenamento do futuro','Fornece sdd e hd')
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('DDDDD','Abra„o teclados','Fornece teclados')
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('EEEEE','VÌdeo em foco','Fornece placas de vÌdeo')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('DDDDD','Abra√£o teclados','Fornece teclados')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('EEEEE','V√≠deo em foco','Fornece placas de v√≠deo')
 INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('FFFFF','Monitores full hd','Fornece monitor')
 INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('GGGGG','Som em dia','Fornece caixa de som')
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('HHHHH','PerifÈricos e cia','Fornece mousepads')
-INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('IIIII','Marcos placas','Fornece placa m„e')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('HHHHH','Perif√©ricos e cia','Fornece mousepads')
+INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('IIIII','Marcos placas','Fornece placa m√£e')
 INSERT FORNECEDOR (IDFORNECEDOR, NOME, PRODUTO) VALUES ('JJJJJ','Torre dos gabinetes','Fornece gabinetes')
 
 -- inserindo produtos
@@ -29,8 +29,8 @@ INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECED
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('CCCCC', 'HeadSet Razer Kraken', 1200, 'HeadSet da Razer com 1  ano de garantia', 160, 400,'BBBBB','BBBBB')
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('DDDDD','SSD Kingston', 300, 'Tenha mais Velocidade com qualidade', 150, 240, 'CCCCC','CCCCC')
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('EEEEE','SSD Sandisk PLUS 400gb', 350, '2 anos de garantia na loja', 300, 500, 'CCCCC','CCCCC')
-INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('FFFFF', 'Teclado mec‚nico Razer', 700, 'Agilidade nos games', 250, 500, 'DDDDD','DDDDD')
-INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('GGGGG', 'Teclado mec‚nico Logitech', 500, 'Teclado com 5 anos de garantia', 300, 450, 'DDDDD','DDDDD')
+INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('FFFFF', 'Teclado mec√¢nico Razer', 700, 'Agilidade nos games', 250, 500, 'DDDDD','DDDDD')
+INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('GGGGG', 'Teclado mec√¢nico Logitech', 500, 'Teclado com 5 anos de garantia', 300, 450, 'DDDDD','DDDDD')
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('HHHHH', 'Placa de video RTX 2080 8GB', 900, 'Nova tecnologia RTX ', 1000, 2500, 'EEEEE','EEEEE')
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('IIIII', 'Placa de video GTX 1660 6GB',700, 'Novo modelo da linha gtx', 800, 1680, 'EEEEE','EEEEE')
 INSERT PRODUTO (IDPRODUTO, NOME, PESO, DESCRICAO, CUSTO, VENDA, TIPO, IDFORNECEDOR) VALUES ('JJJJJ','Monitor Asus',2000, '23 polegadas com taxa de 144hz', 1500, 2800, 'FFFFF','FFFFF')
@@ -45,9 +45,9 @@ INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('GGGGG', 'Almir Pei
 INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('HHHHH', 'Genivaldo Arthur', 18510085756, 'Bairro vermelho, 000','83936698752')
 INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('IIIII', 'Almir Peixoto', 18251400586, 'Cruz das armas, 500','83887511603')
 INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('JJJJJ', 'Arthur Ramalho', 18742034968, 'Bairro Amaral Peixoto, 048','83991841117')
-INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('DDDDD', 'Eduardo Sikera', 12425845474, 'S„o Sebasti„o, 257','83998310389')
+INSERT CLIENTE(IDCLIENTE, NOME, CPF, ENDERECO, FONE) VALUES ('DDDDD', 'Eduardo Sikera', 12425845474, 'S√£o Sebasti√£o, 257','83998310389')
 
--- Inserindo funcion·rios
+-- Inserindo funcion√°rios
 INSERT FUNCIONARIO(IDFUNCIONARIO,NOME, CARGO, SEXO, RG, CPF) VALUES ('AAAA','JEAN LIMA', 'ADMINISTRADOR', 'M' , 4255523 , 12815484752 )
 INSERT FUNCIONARIO(IDFUNCIONARIO,NOME, CARGO, SEXO, RG, CPF) VALUES ('BBBB','Carla Alves', 'Gerente', 'F' , 2510203 , 85345847115 )
 INSERT FUNCIONARIO(IDFUNCIONARIO,NOME, CARGO, SEXO, RG, CPF) VALUES ('CCCC','Wesley Silva', 'Embalador', 'M' , 2620023 , 92814705694 )
@@ -83,8 +83,8 @@ INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUE
 INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUES ('GGGGG','Bairro vermelho, 000', 'GGGGG', 80, 'IIIII', '2019-07-04')
 INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUES ('HHHHH','Cruz das armas, 500', 'HHHHH', 65, 'BBBBB', '2019-05-04')
 INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUES ('IIIII','Bairro Amaral Peixoto, 048', 'CCCCC', 150, 'JJJJJ', '2019-08-12')
-INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUES ('JJJJJ','S„o Sebasti„o, 257', 'JJJJJ', 50, 'FFFFF', '2019-03-10')
---Abaixo est· a simulaÁ„o de pedidos feitos presencialmente
+INSERT PEDIDO(IDPEDIDO, ENDERECO, IDCLIENTE, FRETE, IDPRODUTO, DATAPEDIDO) VALUES ('JJJJJ','S√£o Sebasti√£o, 257', 'JJJJJ', 50, 'FFFFF', '2019-03-10')
+--Abaixo est√° a simula√ß√£o de pedidos feitos presencialmente
 UPDATE PEDIDO SET IDFUNCIONARIO = 'AAAA' WHERE IDPEDIDO = 'AAAAA'
 UPDATE PEDIDO SET IDFUNCIONARIO = 'BBBB' WHERE IDPEDIDO = 'BBBBB'
 UPDATE PEDIDO SET IDFUNCIONARIO = 'CCCC' WHERE IDPEDIDO = 'CCCCC'
@@ -99,7 +99,10 @@ SELECT PEDIDO.IDPEDIDO, CLIENTE.NOME
 FROM PEDIDO
 INNER JOIN CLIENTE
 ON CLIENTE.IDCLIENTE = PEDIDO.IDCLIENTE
-ORDER BY PEDIDO.IDPEDIDO--consultar o n˙mero do pedido, cliente e o nome do produto utilizando inner join para acessar ambas as tabelas ao mesmo tempoSELECT PEDIDO.IDPEDIDO, CLIENTE.NOME, PRODUTO.NOME, PEDIDO.ENDERECO 'Nome do produto'
+ORDER BY PEDIDO.IDPEDIDO
+
+--consultar o n√∫mero do pedido, cliente e o nome do produto utilizando inner join para acessar ambas as tabelas ao mesmo tempo
+SELECT PEDIDO.IDPEDIDO, CLIENTE.NOME, PRODUTO.NOME, PEDIDO.ENDERECO 'Nome do produto'
 FROM PEDIDO
 INNER JOIN CLIENTE
 ON CLIENTE.IDCLIENTE = PEDIDO.IDCLIENTE
@@ -114,19 +117,19 @@ INNER JOIN FORNECEDOR
 ON FORNECEDOR.IDFORNECEDOR = PRODUTO.IDFORNECEDOR
 
 
--- consultar produtos e seus preÁos
+-- consultar produtos e seus pre√ßos
 SELECT NOME, CUSTO, VENDA FROM PRODUTO
 
--- Exibir o preÁo total de venda dos produtos
+-- Exibir o pre√ßo total de venda dos produtos
 SELECT SUM(VENDA)'VALOR TOTAL DE VENDA' FROM PRODUTO
 
--- Exibir o preÁo do teclado(codigo DDDDD) mais barato
+-- Exibir o pre√ßo do teclado(codigo DDDDD) mais barato
 SELECT MIN(CUSTO)'Custo do teclado' FROM PRODUTO WHERE TIPO = 'DDDDD'
 
--- Exibir sal·rios dos funcion·rios
+-- Exibir sal√°rios dos funcion√°rios
 SELECT IDFUNCIONARIO, NOME, CARGO, SALARIO FROM FUNCIONARIO
 
--- Exibir Pedido com o Funcion·rio que realizou o pedido
+-- Exibir Pedido com o Funcion√°rio que realizou o pedido
 SELECT PEDIDO.IDPEDIDO, PEDIDO.ENDERECO, CLIENTE.NOME, PEDIDO.FRETE, PEDIDO.IDPRODUTO, PEDIDO.DATAPEDIDO, FUNCIONARIO.NOME
 FROM PEDIDO
 INNER JOIN FUNCIONARIO
@@ -164,7 +167,7 @@ EXEC spExibirProdutosTipos
 
 
 CREATE PROCEDURE spExibirSalarios
-AS SELECT Nome, SALARIO 'Sal·rio'
+AS SELECT Nome, SALARIO 'Sal√°rio'
 FROM FUNCIONARIO
 
 EXEC spExibirSalarios
@@ -180,7 +183,7 @@ ON FORNECEDOR.IDFORNECEDOR = PRODUTO.IDFORNECEDOR
 
 EXEC spExibirProdutosTiposFornecedor
 
--- exibir n˙mero do pedido, nome do cliente e o nome do funcion·rio
+-- exibir n√∫mero do pedido, nome do cliente e o nome do funcion√°rio
 CREATE PROCEDURE spExibirPedidoClienteFuncionario
 AS SELECT PEDIDO.IDPEDIDO, CLIENTE.NOME, FUNCIONARIO.NOME, PEDIDO.DATAPEDIDO
 FROM PEDIDO 
@@ -191,7 +194,7 @@ ON FUNCIONARIO.IDFUNCIONARIO = PEDIDO.IDFUNCIONARIO
 
 EXEC spExibirPedidoClienteFuncionario
 
---Exibir funcion·rio e cargo depois de inserir o cargo
+--Exibir funcion√°rio e cargo depois de inserir o cargo
 CREATE PROCEDURE spExibirFuncionario
 @CARGO VARCHAR(30)
 AS SELECT FUNCIONARIO.NOME 'NOME', FUNCIONARIO.CARGO 'CARGO'
